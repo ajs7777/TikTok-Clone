@@ -46,6 +46,7 @@ struct FeedCell: View {
                                     .foregroundStyle(.white)
                                     .frame(width: 28, height: 26)
                                 Text("20")
+                                    .font(.footnote)
                                     .foregroundStyle(.white)
                                     .bold()
                             }
@@ -60,6 +61,7 @@ struct FeedCell: View {
                                     .foregroundStyle(.white)
                                     .frame(width: 28, height: 26)
                                 Text("9")
+                                    .font(.footnote)
                                     .foregroundStyle(.white)
                                     .bold()
                             }
