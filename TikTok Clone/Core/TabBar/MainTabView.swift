@@ -11,7 +11,7 @@ struct MainTabView: View {
     @State var selectedTab = 0
     var body: some View {
         TabView(selection: $selectedTab) {
-            Text("Feed")
+            FeedView()
                 .tabItem {
                     VStack{
                         Image(systemName: selectedTab == 0 ? "house.fill" : "house")
@@ -71,4 +71,3 @@ struct MainTabView: View {
 #Preview {
     MainTabView()
 }
-
